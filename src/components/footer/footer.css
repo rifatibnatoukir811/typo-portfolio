@@ -1,0 +1,35 @@
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foot-left{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+}
+.foot-left img{
+    width: 49px;
+    height: 49px;
+    margin-right: 15px;
+}
+.foot-left p{
+    font-family: "Handlee", cursive;
+    font-size: 30px;
+    padding-top: 15px;
+
+}
+.foot-right{
+    text-align: center;
+}
+.foot-right .link{
+    margin-bottom: 30px;
+
+}
+.foot-right .link a{
+    padding: 10px 15px;
+    background-color: #222;
+    margin-right: 30px;
+    font-family: "Handlee", cursive;
+    font-size: 20px;
+    color: #FFF;
+}
