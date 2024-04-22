@@ -19,13 +19,13 @@ const Home = () => {
             <Menu />
             <Name />
             <Banner />
-            <What />
-            <Featured />
-            <Work />
             <Aboutme />
             <About />
+            <Featured />
             <Latest />
+            <What />
             <Skills />
+            <Work />
             <Contact />
             <Footer />
         </>

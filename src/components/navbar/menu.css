@@ -1,4 +1,4 @@
-.menu-bg .icon {
+/* .menu-bg .icon {
     font-family: "Handlee", cursive;
     font-size: 30px;
     font-weight: 400;
@@ -34,4 +34,32 @@
 
 .contact a:hover {
     background-color: #FFC9F0;
+} */
+
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+nav:hover{
+    box-shadow: 0px 20px 40px rgba(194, 162, 193, 0.4);
+
+}
+nav a{
+    background-color: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: #FFF;
+    font-size: 1.3rem;
 }

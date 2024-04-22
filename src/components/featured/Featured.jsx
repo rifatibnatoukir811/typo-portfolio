@@ -3,6 +3,9 @@ import './featured.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import arrowdown from '../../assets/arrowdown.png'
 import project1 from '../../assets/project1.png'
+import project2 from '../../assets/project2.png'
+import project3 from '../../assets/project3.png'
+import project4 from '../../assets/projec4.png'
 
 const Featured = () => {
     return (
@@ -29,12 +32,12 @@ const Featured = () => {
                         </Col>
                         <Col lg={4}>
                             <div className="fea-one">
-                                <img src={project1} alt="" />
+                                <img src={project2} alt="" />
                                 <div className="one-bottom">
                                     <span>4 style Portfolio <br />
                                         design</span>
                                     <div className="btn">
-                                        <a href="#">No-Code</a>
+                                        <a href="#">No-</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +49,7 @@ const Featured = () => {
                         </Col>
                         <Col lg={4}>
                             <div className="fea-one">
-                                <img src={project1} alt="" />
+                                <img src={project3} alt="" />
                                 <div className="one-bottom">
                                     <span>4 style Portfolio <br />
                                         design</span>
@@ -58,7 +61,7 @@ const Featured = () => {
                         </Col>
                         <Col lg={4}>
                             <div className="fea-one">
-                                <img src={project1} alt="" />
+                                <img src={project4} alt="" />
                                 <div className="one-bottom">
                                     <span>4 style Portfolio <br />
                                         design</span>

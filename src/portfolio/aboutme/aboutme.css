@@ -1,7 +1,8 @@
-#aboutme{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+#aboutme {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #FDFCF6;}
+
 .list {
     display: flex;
 }
@@ -21,16 +22,16 @@
 
 
 .left-img img:hover {
-    box-shadow: 0px 20px 40px rgba(235, 166, 234, 0.4);
+    box-shadow: 0px 20px 40px rgba(65, 47, 64, 0.4);
     transform: scale(1.05, 1.05);
 }
 
 .namelist {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .me-head {
-    margin-top: 45px;
+    margin-top: 65px;
 }
 
 .me-head h3 {
@@ -61,7 +62,7 @@
     font-size: 30px;
     font-family: "Handlee", cursive;
     text-align: start;
-    color: #FFC9F0;
+    color: #480b37;
 }
 
 .namelist span {

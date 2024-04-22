@@ -1,6 +1,8 @@
 footer{
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 50px;
+    background-color: #FDFCF6;
+
 }
 .foot-left{
     display: flex;
@@ -22,14 +24,19 @@ footer{
     text-align: center;
 }
 .foot-right .link{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
 }
 .foot-right .link a{
     padding: 10px 15px;
-    background-color: #222;
+    background-color: #3f3b3b;
     margin-right: 30px;
+    border-radius: 5px;
     font-family: "Handlee", cursive;
     font-size: 20px;
     color: #FFF;
+}
+.copyright{
+    font-family: "Handlee", cursive;
+    color: #222;
 }

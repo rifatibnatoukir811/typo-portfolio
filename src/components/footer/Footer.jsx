@@ -15,11 +15,11 @@ const Footer = () => {
                                 <p>Rifat Ibna Toukir</p>
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={{span:6, offset:1}}>
                             <div className="foot-right">
                                 <div className="link">
-                                    <a href="#">Twitter X</a>
-                                    <a href="#">LinkdIn</a>
+                                    <a href="https://github.com/rifatibnatoukir811" target='/'>GitHub</a>
+                                    <a href="https://www.facebook.com/Rifatibnatoukir82/" target='/'>FaceBook</a>
                                     <a href="#">Instagram</a>
                                 </div>
                                 <div className="copyright">
